@@ -1,15 +1,15 @@
 {
-  "version": "0.49.0",
-  "code": 4900,
-  "notes": "- **Flor de chegada fechada que abre**: a flor começa como um botão rosa fechado, em pé; quando a personagem se aproxima (uns 9 m), as pétalas se abrem aos poucos e a flor vira de frente; ao tocar, ela brilha forte e dá o giro de festa. A personagem para por um instante (sem dano) para dar tempo de ver, e só então vem a contagem de pontos.",
+  "version": "0.50.0",
+  "code": 5000,
+  "notes": "- **Final do Mundo 1 (Sprint 27)**: depois de vencer o Besouro Gigante, o botão \"Ver o final\" abre o encerramento: o céu de fim de tarde do carvalho com a borboleta (o modelo 3D do jogo) voando, frases fechando a história com o nome escolhido pelo jogador, \"Mundo 1 concluído!\" com as estrelas e as folhas, a turma dos cinco mundos com \"Mundo 2 — em breve!\" e os créditos subindo até \"Obrigado por jogar!\". Um toque adianta. Quem já venceu a 1-30 pode rever pelo menu Créditos.\n- **Créditos completos** (criação, fases, músicas, arte, modelos Quaternius, Godot, agradecimentos), numa lista só, usada no menu (rolando dentro do quadro) e no final.\n- **Revisão dos textos**: dois textos assumiam personagem menina (a placa \"Gás deixa tonta\" da 1-11 virou \"Gás dá tontura\"; a frase do final virou \"A lagartinha que saiu de um ovinho...\"). Nenhum \"Lari\" aparece na tela.\n- **Preparação para tradução**: `tools/extrair_textos.py` junta os 410 textos que o jogador vê (telas, placas, nomes de áreas, fases e chefões) em `data/traducao/textos.csv` (colunas pt_BR e en); os textos com números ou nomes passam por `tr()`. Falta escrever as traduções e ligar o idioma nas configurações do projeto.",
   "android": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.49.0/AventurasDosInsetos_0.49.0.apk",
-    "sha256": "83896a77091525bfa6adfc3318e18bab761db738a23b7c58dde408e3e9ae46b0",
-    "size": 83637073
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.50.0/AventurasDosInsetos_0.50.0.apk",
+    "sha256": "46c45823c0670020e138837d92022cbefb156e9276087419b4418c948163346c",
+    "size": 83662431
   },
   "windows": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.49.0/AventurasDosInsetos_0.49.0_instalador.exe",
-    "sha256": "22cdf12ac31be3be6d39102e85ab3618bf53487d520402286aa2bc803aa2bb7f",
-    "size": 81280120
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.50.0/AventurasDosInsetos_0.50.0_instalador.exe",
+    "sha256": "38951589f52e8c47ff711add6454e327960a01abb4f8f7fa490d7a6299feea40",
+    "size": 81296168
   }
 }
