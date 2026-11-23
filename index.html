@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>As Aventuras dos Insetos — Beta</title>
+<meta name="description" content="Baixe a versão beta de As Aventuras dos Insetos, jogo de aventura e plataforma para Android e Windows.">
+<link rel="icon" href="imagens/icone.png">
+<style>
+  :root {
+    --bg: #fdf6e3;
+    --card: #ffffff;
+    --text: #3a2a12;
+    --muted: #6b5a3e;
+    --leaf: #4f8f2a;
+    --leaf-dark: #3c6f1f;
+    --wood: #7a4f28;
+    --sun: #f6b73c;
+    --line: #ead9b6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17140e; --card: #221d14; --text: #f3e7cf; --muted: #c9b894; --line: #3b3222;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 "Segoe UI", Roboto, system-ui, sans-serif; }
+  .hero { position: relative; min-height: 420px; display: flex; align-items: flex-end; justify-content: center;
+          background: url("imagens/capa.jpg") center/cover no-repeat; }
+  .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(0,0,0,0) 40%, var(--bg) 100%); }
+  .hero img { position: relative; z-index: 1; width: min(520px, 86vw); margin-bottom: 8px; filter: drop-shadow(0 6px 14px rgba(0,0,0,.35)); }
+  main { max-width: 760px; margin: 0 auto; padding: 0 16px 48px; }
+  .tag { display: inline-block; background: var(--sun); color: #3a2a12; font-weight: 700; border-radius: 999px; padding: 2px 12px; font-size: 14px; }
+  h1 { font-size: 26px; margin: 18px 0 6px; }
+  h2 { font-size: 21px; margin: 30px 0 10px; }
+  p { margin: 8px 0; }
+  .muted { color: var(--muted); }
+  .buttons { display: grid; grid-template-columns: 1fr; gap: 12px; margin: 20px 0 8px; }
+  @media (min-width: 620px) { .buttons { grid-template-columns: 1fr 1fr; } }
+  .btn { display: flex; flex-direction: column; align-items: center; gap: 2px; text-decoration: none; color: #fff; font-weight: 700;
+         font-size: 19px; padding: 16px 14px; border-radius: 16px; background: var(--leaf); box-shadow: 0 4px 0 var(--leaf-dark); }
+  .btn small { font-weight: 400; font-size: 14px; opacity: .9; }
+  .btn.windows { background: var(--wood); box-shadow: 0 4px 0 #5a3a1d; }
+  .btn.opinion { background: #c25f15; box-shadow: 0 4px 0 #8e4510; }
+  .btn[aria-disabled="true"] { opacity: .55; pointer-events: none; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; margin: 12px 0; }
+  ol { padding-left: 22px; margin: 6px 0; }
+  li { margin: 6px 0; }
+  .notes li { margin: 4px 0; }
+  footer { text-align: center; color: var(--muted); font-size: 14px; margin-top: 40px; }
+  code { background: var(--line); padding: 1px 6px; border-radius: 6px; font-size: 14px; word-break: break-all; }
+</style>
+</head>
+<body>
+<header class="hero"><img src="imagens/logo.png" alt="As Aventuras dos Insetos"></header>
+<main>
+  <span class="tag">BETA <span id="versao"></span></span>
+  <h1>Jogue a versão beta!</h1>
+  <p>Aventura e plataforma para Android e Windows. Ajude uma lagarta a crescer, enfrentar chefões e virar borboleta pelas 30 fases do Mundo 1.</p>
+  <p class="muted">Gratuito, sem anúncios, sem compras e sem cadastro. O jogo funciona sem internet; ela só é usada para avisar de versões novas.</p>
+
+  <div class="buttons">
+    <a class="btn" id="baixar-android" href="#" aria-disabled="true">Baixar para Android<small id="tam-android">carregando…</small></a>
+    <a class="btn windows" id="baixar-windows" href="#" aria-disabled="true">Baixar para Windows<small id="tam-windows">carregando…</small></a>
+  </div>
+  <div class="buttons" id="opiniao-box" hidden>
+    <a class="btn opinion" id="opiniao" href="#" target="_blank" rel="noopener">Dar minha opinião<small>leva uns 3 minutos</small></a>
+  </div>
+
+  <h2>Como instalar no Android</h2>
+  <div class="card">
+    <ol>
+      <li>Toque em <b>Baixar para Android</b> e espere o download terminar.</li>
+      <li>Abra o arquivo baixado (na notificação ou na pasta <b>Downloads</b>).</li>
+      <li>Se aparecer "instalação bloqueada", toque em <b>Configurações</b> e permita instalar apps <b>desta fonte</b> (do navegador ou do app de arquivos). Depois volte e toque em <b>Instalar</b>.</li>
+      <li>Se o Play Protect avisar que é um app desconhecido, toque em <b>Mais detalhes → Instalar mesmo assim</b>. O jogo não está na Play Store, por isso o aviso.</li>
+    </ol>
+    <p class="muted">Para atualizar, o próprio jogo avisa no menu quando houver versão nova. Seu progresso continua salvo.</p>
+  </div>
+
+  <h2>Como instalar no Windows</h2>
+  <div class="card">
+    <ol>
+      <li>Toque em <b>Baixar para Windows</b> e abra o instalador.</li>
+      <li>Se o Windows mostrar "O Windows protegeu o computador", clique em <b>Mais informações → Executar assim mesmo</b> (o instalador ainda não tem assinatura digital paga).</li>
+      <li>Siga os passos. Não precisa ser administrador. No fim, marque <b>Jogar agora</b>.</li>
+    </ol>
+  </div>
+
+  <h2>O que tem nesta versão</h2>
+  <div class="card"><ul class="notes" id="notas"><li class="muted">carregando…</li></ul></div>
+
+  <h2>Conferir o arquivo (opcional)</h2>
+  <p class="muted">Código SHA-256 de cada arquivo, para quem quiser conferir que o download chegou inteiro:</p>
+  <p>Android: <code id="sha-android">…</code></p>
+  <p>Windows: <code id="sha-windows">…</code></p>
+
+  <footer>Um jogo da Cerne Software • Beta para testes</footer>
+</main>
+<script>
+(function () {
+  function mb(bytes) { return (bytes / 1048576).toFixed(0) + " MB"; }
+  function setLink(id, info, sizeId, shaId) {
+    var a = document.getElementById(id);
+    if (!info || !info.url) { document.getElementById(sizeId).textContent = "em breve"; return; }
+    a.href = info.url;
+    a.setAttribute("aria-disabled", "false");
+    document.getElementById(sizeId).textContent = mb(info.size || 0);
+    document.getElementById(shaId).textContent = info.sha256 || "";
+  }
+  function cleanNote(line) { return line.replace(/^-\s*/, "").replace(/\*\*/g, "").replace(/`/g, ""); }
+  fetch("manifesto.json", { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (m) {
+    document.getElementById("versao").textContent = m.version || "";
+    setLink("baixar-android", m.android, "tam-android", "sha-android");
+    setLink("baixar-windows", m.windows, "tam-windows", "sha-windows");
+    if (m.feedback && /^https:\/\//.test(m.feedback)) {
+      document.getElementById("opiniao").href = m.feedback;
+      document.getElementById("opiniao-box").hidden = false;
+    }
+    var ul = document.getElementById("notas");
+    ul.innerHTML = "";
+    (m.notes || "").split("\n").filter(function (l) { return l.trim().indexOf("-") === 0; }).forEach(function (l) {
+      var li = document.createElement("li");
+      li.textContent = cleanNote(l.trim());
+      ul.appendChild(li);
+    });
+  }).catch(function () {
+    document.getElementById("tam-android").textContent = "tente de novo mais tarde";
+    document.getElementById("tam-windows").textContent = "tente de novo mais tarde";
+  });
+})();
+</script>
+</body>
+</html>
