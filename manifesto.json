@@ -1,15 +1,15 @@
 {
-  "version": "0.50.0",
-  "code": 5000,
-  "notes": "- **Final do Mundo 1 (Sprint 27)**: depois de vencer o Besouro Gigante, o botão \"Ver o final\" abre o encerramento: o céu de fim de tarde do carvalho com a borboleta (o modelo 3D do jogo) voando, frases fechando a história com o nome escolhido pelo jogador, \"Mundo 1 concluído!\" com as estrelas e as folhas, a turma dos cinco mundos com \"Mundo 2 — em breve!\" e os créditos subindo até \"Obrigado por jogar!\". Um toque adianta. Quem já venceu a 1-30 pode rever pelo menu Créditos.\n- **Créditos completos** (criação, fases, músicas, arte, modelos Quaternius, Godot, agradecimentos), numa lista só, usada no menu (rolando dentro do quadro) e no final.\n- **Revisão dos textos**: dois textos assumiam personagem menina (a placa \"Gás deixa tonta\" da 1-11 virou \"Gás dá tontura\"; a frase do final virou \"A lagartinha que saiu de um ovinho...\"). Nenhum \"Lari\" aparece na tela.\n- **Preparação para tradução**: `tools/extrair_textos.py` junta os 410 textos que o jogador vê (telas, placas, nomes de áreas, fases e chefões) em `data/traducao/textos.csv` (colunas pt_BR e en); os textos com números ou nomes passam por `tr()`. Falta escrever as traduções e ligar o idioma nas configurações do projeto.",
+  "version": "0.51.0",
+  "code": 5100,
+  "notes": "- **Beta (Sprint 13)**: página pública de download (https://danilokan-cyber.github.io/aventuras-dos-insetos-atualizacoes/) com botões para Android e Windows, passo a passo de instalação (fontes desconhecidas, Play Protect, SmartScreen), o que mudou e os SHA-256; ela lê o manifesto, então sempre aponta para a versão mais nova.\n- Botão **\"Dar opinião\"** no menu e na página: abre o formulário de opiniões cujo link vem no manifesto (campo `feedback`, de `docs/beta/link_formulario.txt`); fica escondido enquanto não houver link. A versão no canto do menu mostra \"beta\".\n- `docs/beta/formulario.md` (as 13 perguntas do formulário) e `docs/beta/guia_do_testador.md` (quem convidar, o que observar e a mensagem pronta para os testadores).\n- **Final do Mundo 1**: a asa da borboleta voando aparecia cortada; a câmera do quadro dela ficou mais longe e as asas cabem inteiras.",
   "android": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.50.0/AventurasDosInsetos_0.50.0.apk",
-    "sha256": "46c45823c0670020e138837d92022cbefb156e9276087419b4418c948163346c",
-    "size": 83662431
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.51.0/AventurasDosInsetos_0.51.0.apk",
+    "sha256": "4887f1eed377d69685d6d63b00f69b67b1cb89fa17343ea4d42ad269277abfb3",
+    "size": 83662521
   },
   "windows": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.50.0/AventurasDosInsetos_0.50.0_instalador.exe",
-    "sha256": "38951589f52e8c47ff711add6454e327960a01abb4f8f7fa490d7a6299feea40",
-    "size": 81296168
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.51.0/AventurasDosInsetos_0.51.0_instalador.exe",
+    "sha256": "0f1155c3316bddf5eada9216b60237d79ff8de61c4d99d00fb1055ea913ac251",
+    "size": 81298888
   }
 }
