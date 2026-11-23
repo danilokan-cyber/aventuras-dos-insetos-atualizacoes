@@ -1,15 +1,15 @@
 {
-  "version": "0.48.0",
-  "code": 4800,
-  "notes": "- **Atualizações (Sprint 12)**: ao abrir o menu, o jogo baixa por HTTPS um manifesto pequeno (o único uso de internet do jogo) e, se houver versão nova, mostra o botão \"Nova versão X — Atualizar\". No Windows ele baixa o instalador, confere o SHA-256 com o do manifesto (arquivo diferente é apagado, sem abrir) e instala; no Android abre o link do APK, que o Android só aceita por cima se tiver a mesma assinatura. Sem internet, nada aparece. Dá para desligar em Configurações → \"Procurar atualizações\".\n- Hospedagem: repositório público só de atualizações no GitHub (manifesto no GitHub Pages, arquivos nas Releases); o código do jogo continua privado.\n- **Instalador Windows** (Inno Setup, gratuito): instala só para o usuário, sem pedir administrador, com atalho no menu Iniciar (e na Área de Trabalho, se quiser) e \"Jogar agora\" no fim; atualizar ou desinstalar nunca apaga o progresso.\n- Ferramentas: `tools/gerar_instalador.ps1` (jogo + instalador) e `tools/publicar_versao.py` (copia os arquivos com a versão no nome e gera o manifesto com SHA-256 e tamanhos).",
+  "version": "0.49.0",
+  "code": 4900,
+  "notes": "- **Flor de chegada fechada que abre**: a flor começa como um botão rosa fechado, em pé; quando a personagem se aproxima (uns 9 m), as pétalas se abrem aos poucos e a flor vira de frente; ao tocar, ela brilha forte e dá o giro de festa. A personagem para por um instante (sem dano) para dar tempo de ver, e só então vem a contagem de pontos.",
   "android": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.48.0/AventurasDosInsetos_0.48.0.apk",
-    "sha256": "818d527ea5419495023cd218b5d6089ca0f98d6431fbef9b0f55fc9b06e5030f",
-    "size": 83637325
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.49.0/AventurasDosInsetos_0.49.0.apk",
+    "sha256": "83896a77091525bfa6adfc3318e18bab761db738a23b7c58dde408e3e9ae46b0",
+    "size": 83637073
   },
   "windows": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.48.0/AventurasDosInsetos_0.48.0_instalador.exe",
-    "sha256": "c81066ae43244504cbda137f595fe565c489021d12e7792ea0143deb5febb61b",
-    "size": 81278917
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.49.0/AventurasDosInsetos_0.49.0_instalador.exe",
+    "sha256": "22cdf12ac31be3be6d39102e85ab3618bf53487d520402286aa2bc803aa2bb7f",
+    "size": 81280120
   }
 }
