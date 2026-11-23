@@ -1,15 +1,15 @@
 {
-  "version": "0.52.1",
-  "code": 5201,
-  "notes": "- Em inglês, a tela inicial ganhou o logo \"The Adventures of the Insects\".",
+  "version": "0.53.0",
+  "code": 5300,
+  "notes": "- No celular, atualizar ficou mais fácil: o jogo baixa a versão nova sozinho e você só toca em Atualizar.",
   "android": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.52.1/AventurasDosInsetos_0.52.1.apk",
-    "sha256": "e254ab6d0fd8ef06d62d825935567557d190d97b0d7a1ba4c3169f94a5463847",
-    "size": 84728110
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.53.0/AventurasDosInsetos_0.53.0.apk",
+    "sha256": "1866ed8869345b0adaa493b820338c0318e61074bb1e93f2c9152923c928e767",
+    "size": 84732296
   },
   "windows": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.52.1/AventurasDosInsetos_0.52.1_instalador.exe",
-    "sha256": "1f13d437652affda047f8a849077e6cefbb10ff48cd0591227ccb77dab1e0f3d",
-    "size": 82352723
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.53.0/AventurasDosInsetos_0.53.0_instalador.exe",
+    "sha256": "b18c60752565e7057b08989d05f48c654d88e57d0924524a523a675fabc5a9e6",
+    "size": 82354107
   }
 }
