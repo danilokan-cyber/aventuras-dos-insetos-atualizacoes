@@ -1,15 +1,15 @@
 {
-  "version": "0.51.0",
-  "code": 5100,
-  "notes": "- O final do Mundo 1: vença o Besouro Gigante na fase 30 para ver o encerramento da história e os créditos.\n- Agora são 5 chefões, um a cada 6 fases: Aranha, Formigão, Besouro, Libélula e Besouro Gigante.\n- No fim de cada fase tem contagem de pontos com música de vitória.\n- As 3 estrelas ficaram possíveis: termine a fase, pegue 75% das folhas e não perca nenhuma vida.\n- A flor de chegada começa fechada, abre quando você chega perto e brilha quando você encosta.\n- O pulo ficou mais curto, para os desafios serem de verdade.\n- Os tatus podem ser derrotados: pule em cima ou role contra eles.\n- A borboleta fecha as asas quando rola.\n- O jogo ficou bem mais leve em celulares simples.\n- O jogo avisa quando sai uma versão nova.",
+  "version": "0.52.0",
+  "code": 5200,
+  "notes": "- O jogo agora tem versão em inglês: escolha o idioma em Configurações.\n- As estrelas do fim da fase mostram certinho qual regra você cumpriu.",
   "android": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.51.0/AventurasDosInsetos_0.51.0.apk",
-    "sha256": "4887f1eed377d69685d6d63b00f69b67b1cb89fa17343ea4d42ad269277abfb3",
-    "size": 83662521
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.52.0/AventurasDosInsetos_0.52.0.apk",
+    "sha256": "72824e9290287e762745ffb63571c2700ddd279a9fc7b0a4224a8d23b3c50200",
+    "size": 83674987
   },
   "windows": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.51.0/AventurasDosInsetos_0.51.0_instalador.exe",
-    "sha256": "0f1155c3316bddf5eada9216b60237d79ff8de61c4d99d00fb1055ea913ac251",
-    "size": 81298888
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.52.0/AventurasDosInsetos_0.52.0_instalador.exe",
+    "sha256": "2b97e90d526dc2ab7dbc1b41313f13aa9e394cb6aa6c74b5b7eba3d0f1dbbcab",
+    "size": 81305043
   }
 }
