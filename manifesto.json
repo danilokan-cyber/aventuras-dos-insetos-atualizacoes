@@ -1,0 +1,15 @@
+{
+  "version": "0.48.0",
+  "code": 4800,
+  "notes": "- **Atualizações (Sprint 12)**: ao abrir o menu, o jogo baixa por HTTPS um manifesto pequeno (o único uso de internet do jogo) e, se houver versão nova, mostra o botão \"Nova versão X — Atualizar\". No Windows ele baixa o instalador, confere o SHA-256 com o do manifesto (arquivo diferente é apagado, sem abrir) e instala; no Android abre o link do APK, que o Android só aceita por cima se tiver a mesma assinatura. Sem internet, nada aparece. Dá para desligar em Configurações → \"Procurar atualizações\".\n- Hospedagem: repositório público só de atualizações no GitHub (manifesto no GitHub Pages, arquivos nas Releases); o código do jogo continua privado.\n- **Instalador Windows** (Inno Setup, gratuito): instala só para o usuário, sem pedir administrador, com atalho no menu Iniciar (e na Área de Trabalho, se quiser) e \"Jogar agora\" no fim; atualizar ou desinstalar nunca apaga o progresso.\n- Ferramentas: `tools/gerar_instalador.ps1` (jogo + instalador) e `tools/publicar_versao.py` (copia os arquivos com a versão no nome e gera o manifesto com SHA-256 e tamanhos).",
+  "android": {
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.48.0/AventurasDosInsetos_0.48.0.apk",
+    "sha256": "818d527ea5419495023cd218b5d6089ca0f98d6431fbef9b0f55fc9b06e5030f",
+    "size": 83637325
+  },
+  "windows": {
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.48.0/AventurasDosInsetos_0.48.0_instalador.exe",
+    "sha256": "c81066ae43244504cbda137f595fe565c489021d12e7792ea0143deb5febb61b",
+    "size": 81278917
+  }
+}
