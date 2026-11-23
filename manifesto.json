@@ -1,15 +1,15 @@
 {
-  "version": "0.52.0",
-  "code": 5200,
-  "notes": "- O jogo agora tem versão em inglês: escolha o idioma em Configurações.\n- As estrelas do fim da fase mostram certinho qual regra você cumpriu.",
+  "version": "0.52.1",
+  "code": 5201,
+  "notes": "- Em inglês, a tela inicial ganhou o logo \"The Adventures of the Insects\".",
   "android": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.52.0/AventurasDosInsetos_0.52.0.apk",
-    "sha256": "72824e9290287e762745ffb63571c2700ddd279a9fc7b0a4224a8d23b3c50200",
-    "size": 83674987
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.52.1/AventurasDosInsetos_0.52.1.apk",
+    "sha256": "e254ab6d0fd8ef06d62d825935567557d190d97b0d7a1ba4c3169f94a5463847",
+    "size": 84728110
   },
   "windows": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.52.0/AventurasDosInsetos_0.52.0_instalador.exe",
-    "sha256": "2b97e90d526dc2ab7dbc1b41313f13aa9e394cb6aa6c74b5b7eba3d0f1dbbcab",
-    "size": 81305043
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.52.1/AventurasDosInsetos_0.52.1_instalador.exe",
+    "sha256": "1f13d437652affda047f8a849077e6cefbb10ff48cd0591227ccb77dab1e0f3d",
+    "size": 82352723
   }
 }
