@@ -1,15 +1,15 @@
 {
-  "version": "0.53.0",
-  "code": 5300,
-  "notes": "- No celular, atualizar ficou mais fácil: o jogo baixa a versão nova sozinho e você só toca em Atualizar.",
+  "version": "0.66.2",
+  "code": 6602,
+  "notes": "- Lagartixa e formiga-leão ficaram mais justas: agora dá para vencer.\n- Cesta de Frutas: as frutas mais altas ficaram ao alcance do pulo.\n- Varal ao Vento: toalhas presas no varal, de frente.\n- Quintal da Casa: uma cerca de verdade e um gato com cara de gato.\n- O final do Mundo 1 não trava mais e segue direto para o Mundo 2.",
   "android": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.53.0/AventurasDosInsetos_0.53.0.apk",
-    "sha256": "1866ed8869345b0adaa493b820338c0318e61074bb1e93f2c9152923c928e767",
-    "size": 84732296
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.66.2/AventurasDosInsetos_0.66.2.apk",
+    "sha256": "3afaad49813f3b399a86105d287712b2a2e71f3d65ddb12c1d4b0a5ba38d23f8",
+    "size": 93598605
   },
   "windows": {
-    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.53.0/AventurasDosInsetos_0.53.0_instalador.exe",
-    "sha256": "b18c60752565e7057b08989d05f48c654d88e57d0924524a523a675fabc5a9e6",
-    "size": 82354107
+    "url": "https://github.com/danilokan-cyber/aventuras-dos-insetos-atualizacoes/releases/download/v0.66.2/AventurasDosInsetos_0.66.2_instalador.exe",
+    "sha256": "01a68123e083ace27460763812de4a8037c191b1b5b1946d08d6798cda1e2169",
+    "size": 90055019
   }
 }
